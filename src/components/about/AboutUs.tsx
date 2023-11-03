@@ -9,6 +9,11 @@ import HeroSection from '../HeroSection';
 import LearnMore from './LearnMore';
 import Footer from '../Footer';
 
+/**
+ * AboutUs Component
+ *
+ * This component represents the About Us page, combining various sections to provide information about the organization.
+ */
 const AboutUs: React.FC = () => {
   return (
     <div className="about-us">
@@ -25,11 +30,9 @@ const AboutUs: React.FC = () => {
       <Directions />
       <OurHistory />
       <LearnMore
-  title="Learn more about"
-  subtitle="Elewa's social impact."
- 
-/>
-
+        title="Learn more about"
+        subtitle="Elewa's social impact."
+      />
       <Footer />
     </div>
   );

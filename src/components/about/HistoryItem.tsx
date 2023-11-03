@@ -1,11 +1,24 @@
 import React, { FC, ReactNode } from 'react';
 
+/**
+ * Props for the HistoryItem component.
+ */
 interface HistoryItemProps {
-  year: string;
-  title: string;
-  children: ReactNode;
+  year: string;       // The year associated with the history item.
+  title: string;      // The title of the history item.
+  children: ReactNode; // The content of the history item .
 }
 
+/**
+ * HistoryItem Component
+ *
+ * This component represents an individual historical item with a year, title, and content.
+ *
+ * @param {HistoryItemProps} props - The properties for the HistoryItem.
+ * @param {string} props.year - The year associated with the history item.
+ * @param {string} props.title - The title of the history item.
+ * @param {ReactNode} props.children - The content of the history item .
+ */
 const HistoryItem: FC<HistoryItemProps> = ({ year, title, children }) => {
   return (
     <div className="w-1/4 relative">

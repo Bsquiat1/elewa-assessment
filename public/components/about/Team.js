@@ -28,13 +28,25 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
 const TeamMembers_1 = __importDefault(require("./TeamMembers"));
+/**
+ * Team Component
+ *
+ * This component displays a horizontal-scrolling section featuring team members' information.
+ */
 const Team = () => {
+    // Ref to the image gallery for scrolling
     const imageGalleryRef = (0, react_1.useRef)(null);
+    /**
+     * Scroll the image gallery to the left.
+     */
     const scrollLeft = () => {
         if (imageGalleryRef.current) {
             imageGalleryRef.current.scrollLeft -= 300;
         }
     };
+    /**
+     * Scroll the image gallery to the right.
+     */
     const scrollRight = () => {
         if (imageGalleryRef.current) {
             imageGalleryRef.current.scrollLeft += 300;

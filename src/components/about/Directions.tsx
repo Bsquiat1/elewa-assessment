@@ -1,8 +1,18 @@
 import React, { useState, FC } from 'react';
+import Button from '../Button';
 
+/**
+ * Directions Component
+ *
+ * This component provides information on how to get to a location and allows the user to get directions.
+ */
 const Directions: FC = () => {
+  // State to control the arrow animation
   const [isArrowAnimated, setIsArrowAnimated] = useState<boolean>(false);
 
+  /**
+   * Toggle the arrow animation on button click.
+   */
   const handleClick = () => {
     setIsArrowAnimated(!isArrowAnimated);
   };
@@ -29,13 +39,8 @@ const Directions: FC = () => {
             Get directions
           </p>
           <div>
-            <button
-              className={`bg-black text-white p-2 rounded-full ${isArrowAnimated ? 'animate-arrow' : ''} ml-20`}
-              onClick={handleClick}
-            >
-              Get Directions
-              <span className="ml-2">{isArrowAnimated ? '➡️' : '➲'}</span>
-            </button>
+            {/* Button for getting directions */}
+            <Button text="Get Directions" isAnimated={isArrowAnimated} onClick={handleClick} />
           </div>
         </div>
       </div>

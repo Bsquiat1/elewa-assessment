@@ -5,6 +5,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const HistoryItem_1 = __importDefault(require("./HistoryItem"));
+/**
+ * OurHistory Component
+ *
+ * This component represents a section that displays the history and milestones of the organization.
+ */
 const OurHistory = () => {
     return (react_1.default.createElement("div", { className: "bg-gray-100 p-8 relative overflow-hidden" },
         react_1.default.createElement("h2", { className: "text-6xl font-normal text-left mb-28 mt-20 ml-20" }, "Our History"),

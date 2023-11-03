@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 
 interface SectionWithPhotoProps {
-  backgroundColor: string;
-  imageUrl: string;
-  title: string;
-  description: string;
-  photoPosition: 'left' | 'right' | 'bottom';
-  textColor: string;
+  backgroundColor: string; // Background color for the section.
+  imageUrl: string; // URL of the photo to display.
+  title: string; // Title or heading for the section.
+  description: string; // Description or content of the section.
+  photoPosition: 'left' | 'right' | 'bottom'; // Position of the photo within the section.
+  textColor: string; // Text color for the section.
 }
 
 const SectionWithPhoto: FC<SectionWithPhotoProps> = ({
@@ -27,7 +27,7 @@ const SectionWithPhoto: FC<SectionWithPhotoProps> = ({
             <img src={imageUrl} alt="Your Photo" className="w-full rounded-3xl" />
           </div>
         )}
-         <div className="w-1/2 m-40" style={{ color: textColor }}>
+        <div className="w-1/2 m-40" style={{ color: textColor }}>
           <h2 className="text-5xl font-normal">{title}</h2>
           <p className="text-4xl font-thin mt-20">{description}</p>
         </div>

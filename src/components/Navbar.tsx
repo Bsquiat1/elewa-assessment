@@ -1,6 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// Define an array of navigation links with 'to' and 'text' properties
+const navLinks = [
+  { to: '/', text: 'Home' },
+  { to: '/', text: 'About us' },
+  { to: '/social-impact', text: 'Social impact' },
+  { to: '/invest', text: 'Invest' },
+  { to: '/', text: 'Venture Labs' },
+  { to: '/', text: 'Brands' },
+  { to: '/', text: 'Careers' },
+  { to: '/', text: 'Contact' },
+];
+
 const Navbar = () => {
   return (
     <div>
@@ -15,70 +27,16 @@ const Navbar = () => {
           </Link>
         </div>
         <ul className="flex items-center space-x-14 pr-28 mt-8">
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg text-white"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              About us
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/social-impact"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Social impact
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/invest"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Invest
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Venture Labs
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Brands
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Careers
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/"
-              className="hover:underline transition-colors duration-300 font-sm text-lg"
-            >
-              Contact
-            </Link>
-          </li>
+          {navLinks.map((link, index) => (
+            <li key={index}>
+              <Link
+                to={link.to}
+                className="hover:underline transition-colors duration-300 font-sm text-lg"
+              >
+                {link.text}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>

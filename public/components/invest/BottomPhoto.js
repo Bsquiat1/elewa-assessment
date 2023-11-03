@@ -4,6 +4,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
+/**
+ * BottomPhoto Component
+ *
+ * This component represents a section with a title, description, and an image displayed at the bottom.
+ *
+ * @param {BottomPhotoProps} props - The properties for the BottomPhoto.
+ * @param {string} props.title - The title for the section.
+ * @param {string} props.description - A description or additional text for the section.
+ * @param {string} props.imageUrl - The URL of the image to display in the section.
+ */
 const BottomPhoto = ({ title, description, imageUrl }) => {
     return (react_1.default.createElement("div", { className: "section-container bg-gray-100 p-8 rounded-b-3xl" },
         react_1.default.createElement("div", { className: "container mx-auto flex flex-col items-center justify-center" },

@@ -12,6 +12,11 @@ const Care_1 = __importDefault(require("./Care"));
 const HeroSection_1 = __importDefault(require("../HeroSection"));
 const LearnMore_1 = __importDefault(require("./LearnMore"));
 const Footer_1 = __importDefault(require("../Footer"));
+/**
+ * AboutUs Component
+ *
+ * This component represents the About Us page, combining various sections to provide information about the organization.
+ */
 const AboutUs = () => {
     return (react_1.default.createElement("div", { className: "about-us" },
         react_1.default.createElement(HeroSection_1.default, { backgroundImage: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1679650530/elewa-team_digqu3.jpg", title: "HOW TO RECOGNIZE AN ELEWA MEMBER", subtitle: "Dependable, Creative, Supportive,", description: "Open Minded and Fun*", info: "*SERIOUS WHEN IT MATTERS" }),

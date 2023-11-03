@@ -22,10 +22,23 @@ var __importStar = (this && this.__importStar) || function (mod) {
     __setModuleDefault(result, mod);
     return result;
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importStar(require("react"));
+const Button_1 = __importDefault(require("../Button"));
+/**
+ * Directions Component
+ *
+ * This component provides information on how to get to a location and allows the user to get directions.
+ */
 const Directions = () => {
+    // State to control the arrow animation
     const [isArrowAnimated, setIsArrowAnimated] = (0, react_1.useState)(false);
+    /**
+     * Toggle the arrow animation on button click.
+     */
     const handleClick = () => {
         setIsArrowAnimated(!isArrowAnimated);
     };
@@ -39,8 +52,6 @@ const Directions = () => {
                 react_1.default.createElement("p", { className: "text-2xl font-normal ml-20 mb-4" }, "Not in town? Teams, Meets, or Zoom are our second name. Book an appointment today via contact@elewa.ke!"),
                 react_1.default.createElement("p", { className: "text-2xl font-normal ml-20 mb-4" }, "Get directions"),
                 react_1.default.createElement("div", null,
-                    react_1.default.createElement("button", { className: `bg-black text-white p-2 rounded-full ${isArrowAnimated ? 'animate-arrow' : ''} ml-20`, onClick: handleClick },
-                        "Get Directions",
-                        react_1.default.createElement("span", { className: "ml-2" }, isArrowAnimated ? '➡️' : '➲')))))));
+                    react_1.default.createElement(Button_1.default, { text: "Get Directions", isAnimated: isArrowAnimated, onClick: handleClick }))))));
 };
 exports.default = Directions;

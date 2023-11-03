@@ -1,6 +1,11 @@
 import React, { FC } from 'react';
 import HistoryItem from './HistoryItem';
 
+/**
+ * OurHistory Component
+ *
+ * This component represents a section that displays the history and milestones of the organization.
+ */
 const OurHistory: FC = () => {
   return (
     <div className="bg-gray-100 p-8 relative overflow-hidden">
@@ -9,6 +14,7 @@ const OurHistory: FC = () => {
         <div className="relative">
           <div className="h-2 w-full bg-black absolute top-0 mt-5 ml-20"></div>
           <div className="flex items-center space-x-8 mt-8">
+            {/* HistoryItem components representing key milestones */}
             <HistoryItem year="2015" title="Elewa is born">
               From a Belgian garage and Embakasi apartment, Elewa first sees the light as a purely SaaS-based EdTech analyzing KCSE past papers.
             </HistoryItem>

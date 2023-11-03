@@ -6,6 +6,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
 const react_fontawesome_1 = require("@fortawesome/react-fontawesome");
 const free_brands_svg_icons_1 = require("@fortawesome/free-brands-svg-icons");
+/**
+ * Footer component.
+ *
+ * This component represents the footer section of a website, including contact information,
+ * navigation links, and social media links.
+ */
 const Footer = () => {
     return (react_1.default.createElement("footer", { className: "bg-black text-white py-8 rounded-t-3xl border-t border-white" },
         react_1.default.createElement("div", { className: "container mx-auto" },

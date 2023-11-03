@@ -4,12 +4,22 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
+/**
+ * ValueItem Component
+ *
+ * This component represents an individual value or cultural aspect with an image, title, and description.
+ */
 const ValueItem = ({ imageSrc, title, description, }) => {
     return (react_1.default.createElement("div", { className: "value-item border border-black" },
         react_1.default.createElement("img", { src: imageSrc, alt: title, className: "h-20 mt-14 mb-8 ml-20" }),
         react_1.default.createElement("h3", { className: "text-5xl font-normal mb-2 ml-20" }, title),
         react_1.default.createElement("p", { className: "text-3xl font-thin ml-20 mb-4" }, description)));
 };
+/**
+ * Values Component
+ *
+ * This component displays information about the culture and values of the organization.
+ */
 const Values = () => {
     return (react_1.default.createElement("div", { className: "values-section" },
         react_1.default.createElement("h2", { className: "text-7xl font-normal text-left mb-20 mt-20 ml-20" }, "Our Culture & Values"),

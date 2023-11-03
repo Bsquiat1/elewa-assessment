@@ -1,5 +1,10 @@
 import React, { FC } from 'react';
 
+/**
+ * ValueItem Component
+ *
+ * This component represents an individual value or cultural aspect with an image, title, and description.
+ */
 const ValueItem: FC<{ imageSrc: string; title: string; description: string }> = ({
   imageSrc,
   title,
@@ -14,6 +19,11 @@ const ValueItem: FC<{ imageSrc: string; title: string; description: string }> = 
   );
 };
 
+/**
+ * Values Component
+ *
+ * This component displays information about the culture and values of the organization.
+ */
 const Values: FC = () => {
   return (
     <div className="values-section">
@@ -22,6 +32,7 @@ const Values: FC = () => {
       <p className="text-4xl font-normal ml-20">success. It keeps our team and management accountable to itself,</p>
       <p className="text-4xl font-normal mb-16 ml-20">its objective, and our long-term mission.</p>
       <div className="grid grid-cols-2">
+        {/* ValueItem components representing key values or cultural aspects */}
         <ValueItem
           imageSrc="https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690301/elewa-group-website/Icons/PNG/coorperative_kzlzrg.png"
           title="Cooperative"

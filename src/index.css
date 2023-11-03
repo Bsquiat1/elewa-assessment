@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add this CSS class to your stylesheet */
+
 @keyframes arrowAnimation {
     0% {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(10px); /* Adjust the animation distance as needed */
+      transform: translateX(10px); 
     }
   }
   

@@ -1,24 +1,39 @@
 import React, { FC, useRef } from 'react';
 import teamMembers from './TeamMembers';
 
+/**
+ * Team Member object representing a member of the management team.
+ */
 interface TeamMember {
-  name: string;
-  image: string;
-  position: string;
+  name: string;    // The name of the team member.
+  image: string;   // The image URL of the team member.
+  position: string; // The position or role of the team member.
 }
 
+/**
+ * Team Component
+ *
+ * This component displays a horizontal-scrolling section featuring team members' information.
+ */
 const Team: FC = () => {
+  // Ref to the image gallery for scrolling
   const imageGalleryRef = useRef<HTMLDivElement | null>(null);
 
+  /**
+   * Scroll the image gallery to the left.
+   */
   const scrollLeft = () => {
     if (imageGalleryRef.current) {
-      imageGalleryRef.current.scrollLeft -= 300; 
+      imageGalleryRef.current.scrollLeft -= 300;
     }
   };
 
+  /**
+   * Scroll the image gallery to the right.
+   */
   const scrollRight = () => {
     if (imageGalleryRef.current) {
-      imageGalleryRef.current.scrollLeft += 300; 
+      imageGalleryRef.current.scrollLeft += 300;
     }
   };
 

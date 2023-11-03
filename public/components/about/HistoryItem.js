@@ -4,6 +4,16 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const react_1 = __importDefault(require("react"));
+/**
+ * HistoryItem Component
+ *
+ * This component represents an individual historical item with a year, title, and content.
+ *
+ * @param {HistoryItemProps} props - The properties for the HistoryItem.
+ * @param {string} props.year - The year associated with the history item.
+ * @param {string} props.title - The title of the history item.
+ * @param {ReactNode} props.children - The content of the history item .
+ */
 const HistoryItem = ({ year, title, children }) => {
     return (react_1.default.createElement("div", { className: "w-1/4 relative" },
         react_1.default.createElement("div", { className: "w-12 h-12 bg-black rounded-full mb-20 ml-20" }),
