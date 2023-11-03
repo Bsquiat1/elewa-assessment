@@ -9,7 +9,7 @@ ELEWA WEBSITE
 
 ## Introduction
 
-This is the Elewa website and I have worked on the, social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
+This is the Elewa website and I have worked on the social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
 
 
 
