@@ -38,11 +38,11 @@ const Footer = () => {
         react_1.default.createElement("div", { className: "flex justify-between items-center mx-20 mt-20" },
             react_1.default.createElement("img", { src: "https://res.cloudinary.com/dyl3rncv3/image/upload/v1675690297/elewa-group-website/Icons/SVG/_Logo/Logo_White_arvoyx.svg", alt: "Logo", className: "w-96 h-11" }),
             react_1.default.createElement("div", { className: "mt-4 flex" },
-                react_1.default.createElement("a", { href: "#", className: "text-white mr-4" },
+                react_1.default.createElement("a", { className: "text-white mr-4" },
                     react_1.default.createElement(react_fontawesome_1.FontAwesomeIcon, { icon: free_brands_svg_icons_1.faFacebook, size: "3x" })),
-                react_1.default.createElement("a", { href: "#", className: "text-white mr-4" },
+                react_1.default.createElement("a", { className: "text-white mr-4" },
                     react_1.default.createElement(react_fontawesome_1.FontAwesomeIcon, { icon: free_brands_svg_icons_1.faInstagram, size: "3x" })),
-                react_1.default.createElement("a", { href: "#", className: "text-white" },
+                react_1.default.createElement("a", { className: "text-white" },
                     react_1.default.createElement(react_fontawesome_1.FontAwesomeIcon, { icon: free_brands_svg_icons_1.faLinkedin, size: "3x" }))))));
 };
 exports.default = Footer;

@@ -5,7 +5,8 @@ interface SectionWithPhotoProps {
   imageUrl: string;
   title: string;
   description: string;
-  photoPosition: 'left' | 'right';
+  photoPosition: 'left' | 'right' | 'bottom';
+  textColor: string;
 }
 
 const SectionWithPhoto: FC<SectionWithPhotoProps> = ({
@@ -14,6 +15,7 @@ const SectionWithPhoto: FC<SectionWithPhotoProps> = ({
   title,
   description,
   photoPosition,
+  textColor,
 }) => {
   const isPhotoOnLeft = photoPosition === 'left';
 
@@ -25,9 +27,9 @@ const SectionWithPhoto: FC<SectionWithPhotoProps> = ({
             <img src={imageUrl} alt="Your Photo" className="w-full rounded-3xl" />
           </div>
         )}
-        <div className="w-1/2">
-          <h2 className="text-3xl font-bold text-white">{title}</h2>
-          <p className="text-xl text-white">{description}</p>
+         <div className="w-1/2 m-40" style={{ color: textColor }}>
+          <h2 className="text-5xl font-normal">{title}</h2>
+          <p className="text-4xl font-thin mt-20">{description}</p>
         </div>
         {!isPhotoOnLeft && (
           <div className="w-1/2">

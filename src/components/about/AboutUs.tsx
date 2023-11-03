@@ -24,7 +24,12 @@ const AboutUs: React.FC = () => {
       <Values />
       <Directions />
       <OurHistory />
-      <LearnMore />
+      <LearnMore
+  title="Learn more about"
+  subtitle="Elewa's social impact."
+ 
+/>
+
       <Footer />
     </div>
   );

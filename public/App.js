@@ -8,7 +8,7 @@ const react_router_dom_1 = require("react-router-dom");
 require("./App.css");
 const AboutUs_1 = __importDefault(require("./components/about/AboutUs"));
 const SocialImpact_1 = __importDefault(require("./components/social/SocialImpact"));
-const Invest_1 = __importDefault(require("./components/Invest"));
+const Invest_1 = __importDefault(require("./components/invest/Invest"));
 function App() {
     return (react_1.default.createElement(react_router_dom_1.BrowserRouter, null,
         react_1.default.createElement(react_router_dom_1.Routes, null,

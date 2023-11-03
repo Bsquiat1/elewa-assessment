@@ -20,7 +20,7 @@ const AboutUs = () => {
         react_1.default.createElement(Values_1.default, null),
         react_1.default.createElement(Directions_1.default, null),
         react_1.default.createElement(OurHistory_1.default, null),
-        react_1.default.createElement(LearnMore_1.default, null),
+        react_1.default.createElement(LearnMore_1.default, { title: "Learn more about", subtitle: "Elewa's social impact." }),
         react_1.default.createElement(Footer_1.default, null)));
 };
 exports.default = AboutUs;

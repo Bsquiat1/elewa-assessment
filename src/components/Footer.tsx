@@ -46,13 +46,13 @@ const Footer: FC = () => {
           className="w-96 h-11"
         />
         <div className="mt-4 flex">
-          <a href="#" className="text-white mr-4">
+          <a className="text-white mr-4">
             <FontAwesomeIcon icon={faFacebook} size="3x" />
           </a>
-          <a href="#" className="text-white mr-4">
+          <a className="text-white mr-4">
             <FontAwesomeIcon icon={faInstagram} size="3x" />
           </a>
-          <a href="#" className="text-white">
+          <a  className="text-white">
             <FontAwesomeIcon icon={faLinkedin} size="3x" />
           </a>
         </div>

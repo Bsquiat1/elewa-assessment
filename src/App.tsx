@@ -4,7 +4,7 @@ import './App.css';
 
 import AboutUs from './components/about/AboutUs';
 import SocialImpact from './components/social/SocialImpact';
-import Invest from './components/Invest';
+import Invest from './components/invest/Invest';
 
 
 function App(): JSX.Element {
