@@ -9,7 +9,7 @@ ELEWA WEBSITE
 
 ## Introduction
 
-This is the Elewa website and I have worked on the social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
+This is the Elewa website and I have worked on the, social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
 
 
 
@@ -18,24 +18,22 @@ This is the Elewa website and I have worked on the social-impact,invest and abou
 Instructions for setting up and running your application. Include installation steps, configuration, and any other necessary details. For example:
 
 1. Clone the repository:
-   ```sh
-   git clone git@github.com:Bsquiat1/elewa-assessment.git
-Install dependencies:
+  
+git clone git@github.com:Bsquiat1/elewa-assessment.git
+Change into the project directory:
 
-sh
-Copy code
-npm i
-Start the development server:
 
-sh
-Copy code
+Install project dependencies using npm:
+
+
+npm install
+Development Server
+To start a local development server, run the following command:
+
+
 npm run dev
-Open your browser and navigate to http://localhost:5173.
+This will start the development server and make your application accessible at a specific URL (usually http://localhost:5173). You can access your application in your web browser.
 
-Project Structure
-Explain the structure of your project's source code. Describe the purpose of key folders and files.
-
-lua
 
 Technologies
 
