@@ -1,46 +1,49 @@
 
 
-ELEWA WEBSITE
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Getting Started](#getting-started)
-- [Technologies](#technologies)
-
-## Introduction
-
-This is the Elewa website and I have worked on the, social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
+#Elewa Website
 
 
+#Table of Contents
+Introduction
+Getting Started
+Technologies
+Introduction
+Welcome to the Elewa website repository! In this project, we have focused on creating the social-impact, invest, and about-us pages. Our tech stack includes Vite for React, TypeScript, and Tailwind CSS for styling.
 
-## Getting Started
+#Getting Started
+To get started with this project, follow these steps:
 
-Instructions for setting up and running your application. Include installation steps, configuration, and any other necessary details. For example:
+1. Clone the Repository
 
-1. Clone the repository:
-  
+Copy code
 git clone git@github.com:Bsquiat1/elewa-assessment.git
-Change into the project directory:
 
+2. Change into the Project Directory
 
-Install project dependencies using npm:
+Copy code
+cd elewa-assessment
 
+3. Install Project Dependencies
 
+To install the necessary dependencies, run:
+
+Copy code
 npm install
-Development Server
+
+4. Development Server
+
 To start a local development server, run the following command:
 
-
+Copy code
 npm run dev
-This will start the development server and make your application accessible at a specific URL (usually http://localhost:5173). You can access your application in your web browser.
 
+This will initiate the development server, making your application accessible at a specific URL (typically http://localhost:5173). You can view your application in your web browser.
 
 Technologies
+The technologies used in this project include:
 
-
-Vite
-React 
-TypeScript
-Tailwind CSS
-
-
+Vite: A build tool that enhances the development experience for React applications.
+React: A popular JavaScript library for building user interfaces.
+TypeScript: A statically typed superset of JavaScript, enhancing code quality and developer productivity.
+Tailwind CSS: A utility-first CSS framework for fast and responsive web design.
