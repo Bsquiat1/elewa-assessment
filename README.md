@@ -1,8 +1,48 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+ELEWA WEBSITE
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Introduction](#introduction)
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
+
+## Introduction
+
+This is the Elewa website and I have worked on the, social-impact,invest and about-us page. I have used vite for react, typescript and tailwind css for styling.
+
+
+
+## Getting Started
+
+Instructions for setting up and running your application. Include installation steps, configuration, and any other necessary details. For example:
+
+1. Clone the repository:
+   ```sh
+   git clone git@github.com:Bsquiat1/elewa-assessment.git
+Install dependencies:
+
+sh
+Copy code
+npm i
+Start the development server:
+
+sh
+Copy code
+npm run dev
+Open your browser and navigate to http://localhost:5173.
+
+Project Structure
+Explain the structure of your project's source code. Describe the purpose of key folders and files.
+
+lua
+
+Technologies
+
+
+Vite
+React 
+TypeScript
+Tailwind CSS
+
+
