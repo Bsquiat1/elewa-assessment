@@ -3,7 +3,7 @@ import HistoryItem from './HistoryItem';
 
 const OurHistory = () => {
   return (
-    <div className="bg-gray-100 p-8 relative">
+    <div className="bg-gray-100 p-8 relative overflow-hidden">
       <h2 className="text-6xl font-normal text-left mb-28 mt-20 ml-20">Our History</h2>
       <div class="-lg mx-auto">
         <div className="relative">
