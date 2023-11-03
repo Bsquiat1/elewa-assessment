@@ -16,26 +16,26 @@ To get started with this project, follow these steps:
 
 1. Clone the Repository
 
-Copy code
+
 git clone git@github.com:Bsquiat1/elewa-assessment.git
 
 2. Change into the Project Directory
 
-Copy code
+
 cd elewa-assessment
 
 3. Install Project Dependencies
 
 To install the necessary dependencies, run:
 
-Copy code
+
 npm install
 
 4. Development Server
 
 To start a local development server, run the following command:
 
-Copy code
+
 npm run dev
 
 This will initiate the development server, making your application accessible at a specific URL (typically http://localhost:5173). You can view your application in your web browser.
