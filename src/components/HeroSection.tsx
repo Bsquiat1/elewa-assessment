@@ -28,16 +28,9 @@ const HeroSection: FC<HeroSectionProps> = ({ backgroundImage, title, subtitle, d
       >
         <div
           className="image-overlay"
-          style={{
-            position: "absolute",
-            top: 0,
-            left: 0,
-            right: 0,
-            bottom: 0,
-            background: "rgba(0, 0, 0, 0.3)",
-          }}
+          
         />
-        <div className="navbar" style={{ position: "absolute", top: 0, left: 0, right: 0, zIndex: 2 }}>
+        <div className="navbar" >
           <Navbar />
         
         <div className="mt-96">
