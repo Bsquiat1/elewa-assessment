@@ -113,6 +113,29 @@
   z-index: 2;
 }
 
+.sliding-icons-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  animation: slide 10s linear infinite; 
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 5px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); 
+  }
+}
 
 
   

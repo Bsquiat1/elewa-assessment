@@ -4,6 +4,7 @@ import SectionWithPhoto from '../SectionWithPhoto';
 import Achievements from './Achievements';
 import LearnMoreSection from '../about/LearnMore';
 import Footer from '../Footer';
+import SlidingIconsSection from './SlidingIcons';
 
 /**
  * SocialImpact Component
@@ -53,10 +54,13 @@ const SocialImpact = () => {
         photoPosition="right"
         textColor="white"
       />
+      <SlidingIconsSection />
+
       <LearnMoreSection
         title="Become part of our mission"
         subtitle="and join Elewa."
       />
+
       <Footer />
     </div>
   );

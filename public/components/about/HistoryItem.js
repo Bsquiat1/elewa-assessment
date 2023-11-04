@@ -15,7 +15,7 @@ const react_1 = __importDefault(require("react"));
  * @param {ReactNode} props.children - The content of the history item .
  */
 const HistoryItem = ({ year, title, children }) => {
-    return (react_1.default.createElement("div", { className: "w-1/4 relative" },
+    return (react_1.default.createElement("div", null,
         react_1.default.createElement("div", { className: "w-12 h-12 bg-black rounded-full mb-20 ml-20" }),
         react_1.default.createElement("div", { className: "ml-20" },
             react_1.default.createElement("div", { className: "text-2xl font-normal mb-2" }, year),

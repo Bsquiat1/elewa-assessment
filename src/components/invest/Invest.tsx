@@ -4,6 +4,7 @@ import SectionWithPhoto from '../SectionWithPhoto';
 import BottomPhoto from './BottomPhoto';
 import LearnMoreSection from '../about/LearnMore';
 import Footer from '../Footer';
+import KeyFiguresSection from './KeyFigures';
 
 /**
  * Invest Component
@@ -26,6 +27,8 @@ const Invest = () => {
         description="The global South is rapidly catching up with the 'developed' world. It's time for you to get to know the rapid development, innovation, and drive going on in this part of the world (East-Africa, South Asia, and beyond)."
         imageUrl="https://res.cloudinary.com/dyl3rncv3/image/upload/c_scale,w_1280/v1675690306/elewa-group-website/Images/Mask_Group_17_rjkgrq.png"
       />
+
+      < KeyFiguresSection />
 
       <SectionWithPhoto
         backgroundColor="bg-grey-300"
