@@ -1,17 +1,17 @@
 
 
 
-#Elewa Website
+# Elewa Website
 
 
-#Table of Contents
+# Table of Contents
 Introduction
 Getting Started
 Technologies
 Introduction
 Welcome to the Elewa website repository! In this project, we have focused on creating the social-impact, invest, and about-us pages. Our tech stack includes Vite for React, TypeScript, and Tailwind CSS for styling.
 
-#Getting Started
+# Getting Started
 To get started with this project, follow these steps:
 
 1. Clone the Repository
